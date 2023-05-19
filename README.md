@@ -7,3 +7,12 @@ Ideally they should only take 20-30 minutes long.
 You can choose whether they pseudo code, or you drive while they navigate.
 
 Please do not share this repo with the students, as it should not be a replacement for katas.
+
+
+## KATAS
+
+-> sumOfAll (rest operators)
+
+## BEND
+
+-> reading-books-api (sql errors)
