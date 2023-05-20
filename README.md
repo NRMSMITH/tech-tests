@@ -15,4 +15,4 @@ Please do not share this repo with the students, as it should not be a replaceme
 
 ## BEND
 
--> reading-books-api (sql errors)
+-> reading-books-api 

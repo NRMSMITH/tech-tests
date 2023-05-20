@@ -1,4 +1,4 @@
-const sumOfAll = require('../sumOfAll.js')
+const sumOfAll = require('../katas/sumOfAll')
 
 describe('sumOfAll', () => {
     test.todo('')
