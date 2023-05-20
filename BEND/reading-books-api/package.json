@@ -5,9 +5,9 @@
   "main": "listen.js",
   "scripts": {
     "test": "jest",
-    "setup-db": "psql -f ./BEND/reading-books-api/db/readingbooks.sql",
-    "seed": "PGDATABASE=reading_books node BEND/reading-books-api/db/run-seed.js",
-    "start": "node BEND/reading_books/listen.js",
+    "setup-db": "psql -f ./db/readingbooks.sql",
+    "seed": "PGDATABASE=reading_books node ./db/run-seed.js",
+    "start": "node listen.js",
     "seed-prod": "NODE_ENV=production npm run seed"
   },
   "keywords": [],
