@@ -11,8 +11,18 @@ Please do not share this repo with the students, as it should not be a replaceme
 
 ## KATAS
 
--> sumOfAll (rest operators)
+### sumOfAll
+-> rest operators
+-> writing a test suite
+-> could use .reduce if they are all put into an array
 
 ## BEND
 
--> reading-books-api 
+### reading-books-api
+->
+
+## FEND
+
+### Axolotl web page
+-> create a single-page-app wireframe and component tree based off the webpage for the axolotl on the sandiegozoo: https://animals.sandiegozoo.org/animals/axolotl
+
