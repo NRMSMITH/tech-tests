@@ -3,7 +3,6 @@ const {seed} = require('../db/seed')
 const request = require('supertest')
 const db = require('../db/connection')
 const testData = require('../db/data/test.data/index');
-const { getBookshops } = require('./controllers/bookshops.controller');
 
 beforeEach(() => {
     return seed(testData)
@@ -62,6 +61,22 @@ describe('GET /api/bookshops', () => {
         .expect(404)
         .then(({body}) => {
             expect(body.msg).toBe('Not Found')
+        })
+    })
+})
+
+describe('GET /api/bookshops/1', () => {
+    test('200: responds with an object of a bookshop that matches the id sent', () => {
+        return request(app)
+        .get('/api/bookshops/1')
+        .expect(200)
+        .then(({ body }) => {
+            expect(body.bookshop.length === 1);
+            expect(body.bookshop).toMatchObject({
+                bookshop_id: 1,
+                bookshop_name: "Broadhursts of Southport",
+                phone_number: "01704532064"
+            })
         })
     })
 })

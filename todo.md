@@ -2,8 +2,10 @@
 
 ### BEND: reading books api
 
-->get reading-books-api hosted
+->get reading-books-api hosted X
 ->add edits (mistakes) to reading-books-api
+  --> seed file
+  --> instructions to build getBookById
 ->update readme to reflect what you have to do for it
 
 

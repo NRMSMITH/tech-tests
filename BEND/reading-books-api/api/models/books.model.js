@@ -8,6 +8,3 @@ exports.selectBooks = () => {
 }
 
 //get selectbooksbyid 
-
-//sql injection
-

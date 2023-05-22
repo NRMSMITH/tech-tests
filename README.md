@@ -19,7 +19,15 @@ Please do not share this repo with the students, as it should not be a replaceme
 ## BEND
 
 ### reading-books-api
-->
+
+Api link: https://reading-books-api.onrender.com/api/bookshops (might not work until you fix the seed file)
+
+-> issues with the seed.js file
+    -> wrong column names for insertBooks (book_title = book_name // book_author = book_writer)
+    -> missing 'RETURNING *' on insertBookshops
+-> sql injection in the selectBookshopById model
+-> build getBookById endpoint
+-> build error tests
 
 ## FEND
 
